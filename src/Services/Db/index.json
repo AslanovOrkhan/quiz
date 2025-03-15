@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "title": "What is React?",
+      "difficulty": "easy",
+      "category": "JavaScript",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 2,
+      "title": "What is JSX?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 3,
+      "title": "What is the use of useState in React?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 4,
+      "title": "What is the Virtual DOM?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 5,
+      "title": "What is the main advantage of React?",
+      "difficulty": "easy",
+      "category": "JavaScript",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 6,
+      "title": "Which hook is used for side effects in React?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 7,
+      "title": "What does useContext do in React?",
+      "difficulty": "hard",
+      "category": "React",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 8,
+      "title": "What is the role of Redux in React applications?",
+      "difficulty": "hard",
+      "category": "State Management",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 9,
+      "title": "What is the difference between props and state?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    },
+    {
+      "id": 10,
+      "title": "What is React Router used for?",
+      "difficulty": "medium",
+      "category": "Routing",
+      "answers": "A JavaScript library A CSS framework A databaseA backend language"
+    }
+  ]
+}
