@@ -9,10 +9,10 @@ function Context({ children }) {
   useEffect(() => {
     const savedAdmin = localStorage.getItem("isAdmin");
     setIsAdmin(savedAdmin === "true");
-    setLoading(false)
-   }, []);
+    setLoading(false);
+  }, []);
 
-   const login = (credentials) => {
+  const login = (credentials) => {
     if (
       credentials.username === "admin" &&
       credentials.password === "password"
@@ -28,7 +28,7 @@ function Context({ children }) {
     setIsAdmin(false);
     localStorage.removeItem("isAdmin");
   };
-  const value = { isAdmin, login, logout, setIsAdmin, loading, setLoading};
+  const value = { isAdmin, login, logout, setIsAdmin, loading, setLoading };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

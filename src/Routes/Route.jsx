@@ -40,7 +40,6 @@ const Routes = [
   {
     // admin
     path: "/admin",
-
     element: (
       <ProtectedRoute>
         <Admin />

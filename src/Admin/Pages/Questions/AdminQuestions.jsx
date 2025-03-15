@@ -7,7 +7,6 @@ const AdminQuestions = () => {
     fetch("http://localhost:3000/questions")
       .then((response) => response.json())
       .then((data) => setQuestions(data))
-      .catch((error) => console.error("Error fetching questions:", error));
   }, []);
 
   const handleDelete = (id) => {
@@ -62,3 +61,4 @@ const AdminQuestions = () => {
 };
 
 export default AdminQuestions;
+ 

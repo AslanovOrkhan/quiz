@@ -14,14 +14,12 @@ const Dashboard = () => {
       .then((data) => {
         setQuestions(data);
         calculateStats(data);
-      })
-      .catch((error) => console.error("Error fetching questions:", error));
+      });
   }, []);
 
   const calculateStats = (data) => {
     const total = data.length;
 
-    // Kategoriyalar üzrə statistikalar
     const categories = data.reduce((acc, question) => {
       acc[question.category] = (acc[question.category] || 0) + 1;
       return acc;
