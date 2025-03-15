@@ -11,6 +11,8 @@ const AdminHeader = () => {
       <ul>
         <li><NavLink className={({isActive})=> ( isActive ? styles.active : "")} to={"/admin/dashboard"}>Dashboard</NavLink></li>
         <li><NavLink className={({isActive})=> ( isActive ? styles.active : "")} to={"/admin/addQuestions"}>Add Questions</NavLink></li>
+        <li><NavLink className={({isActive})=> ( isActive ? styles.active : "")} to={"/admin/AdminQuestions"}>Admin Questions</NavLink></li>
+
         <button onClick={() => {
                   if (window.confirm("are you sure to log out?")) {
                     logout();

@@ -8,6 +8,7 @@ import Dashboard from "../Admin/Pages/Dashboard/Dashboard";
 import AddQuestions from "../Admin/Pages/AddQuestions/AddQuestions";
 import Login from "../User/Pages/Login/Login";
 import ProtectedRoute from "../Admin/Components/ProtectedRoute";
+import AdminQuestions from "../Admin/Pages/Questions/AdminQuestions";
 const Routes = [
   {
     // user
@@ -59,6 +60,14 @@ const Routes = [
         element: (
           <ProtectedRoute>
             <AddQuestions />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "adminQuestions",
+        element: (
+          <ProtectedRoute>
+            <AdminQuestions />
           </ProtectedRoute>
         ),
       },
